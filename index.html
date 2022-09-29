@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   
   
-  <title>GeneFace</title>
+  <title>GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:type" content="website">
-<meta property="og:title" content="GeneFace">
+<meta property="og:title" content="GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="GeneFace">
+<meta property="og:site_name" content="GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="GeneFace" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -41,7 +41,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">GeneFace</a>
+        <a href="/" id="logo">GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis</a>
       </h1>
       
     </div>
@@ -70,9 +70,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-GeneFace" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/hello-world/" class="article-date">
+    <a href="/GeneFace/" class="article-date">
   <time class="dt-published" datetime="2022-09-29T10:56:07.917Z" itemprop="datePublished">2022-09-29</time>
 </a>
     
@@ -84,7 +84,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/hello-world/">Hello World</a>
+      <a class="p-name article-title" href="/GeneFace/">GeneFace</a>
     </h1>
   
 
@@ -92,24 +92,16 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p><img src="/GeneFace/overview.png" alt="overview"></p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Generating photo-realistic video portrait with arbitrary speech audio is a crucial problem in film-making and virtual reality. Recently, several works explore the usage of neural radiance field in this task to improve 3D realness and image fidelity. However, the generalizability of previous NeRF-based methods is limited by the small scale of training data. In this work, we propose GeneFace, a generalized and high-fidelity NeRF-based talking face generation method, which can generate natural results corresponding to various out-of-domain audio. Specifically, we learn a variaitional motion generator on a large lip-reading corpus, and introduce a domain adaptative post-net to calibrate the result. Moreover, we learn a NeRFbased renderer conditioned on the predicted motion. A head-aware torso-NeRF is proposed to eliminate the head-torso separation problem. Extensive experiments show that our method achieves more generalized and high-fidelity talking face generation compared to previous methods.</p>
+<h2 id="Demo-Video"><a href="#Demo-Video" class="headerlink" title="Demo Video"></a>Demo Video</h2><video width="480" height="320" controls>
+<source src="GeneFace/demo.mp4">
+</video>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/hello-world/" data-id="cl8myqxm70000yj9kg6xf57a5" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/GeneFace/" data-id="cl8mzm2480000ba9k5afodgt0" data-title="GeneFace" class="article-share-link">Share</a>
       
       
       
@@ -152,7 +144,7 @@
       <ul>
         
           <li>
-            <a href="/hello-world/">Hello World</a>
+            <a href="/GeneFace/">GeneFace</a>
           </li>
         
       </ul>
@@ -168,7 +160,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2022 GeneFace<br>
+      &copy; 2022 GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
