@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://yoursite.com/GeneFace/overview.png">
 <meta property="article:published_time" content="2022-09-29T10:56:07.917Z">
-<meta property="article:modified_time" content="2022-11-08T13:15:24.150Z">
+<meta property="article:modified_time" content="2022-11-11T13:57:19.959Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/GeneFace/overview.png">
   
@@ -112,6 +112,14 @@
 <video width="480" height="320" controls>
 <source src="GeneFace/example_show_improvement.mp4">
 </video>
+
+
+<h2 id="4-Additional-ablation-studies-on-the-effectiveness-of-Variational-Generator"><a href="#4-Additional-ablation-studies-on-the-effectiveness-of-Variational-Generator" class="headerlink" title="4.  Additional ablation studies on the effectiveness of Variational Generator"></a>4.  Additional ablation studies on the effectiveness of Variational Generator</h2><p>To evaluate the We compare VAE+Flow against vanilla VAE and a regression-based model (trained with MSE loss). We use L2 error between the predicted&#x2F;GT 3D landmarks as the evalutation metric. We can see that VAE+Flow achieves the best performance. </p>
+<video width="480" height="320" controls>
+<source src="GeneFace/display_3d_landmark.mp4">
+</video>
+
+
 
 <h2 id="Overall-Pipeline"><a href="#Overall-Pipeline" class="headerlink" title="Overall Pipeline"></a>Overall Pipeline</h2><p><img src="/GeneFace/overview.png" alt="overview"></p>
 <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Generating photo-realistic video portrait with arbitrary speech audio is a crucial problem in film-making and virtual reality. Recently, several works explore the usage of neural radiance field in this task to improve 3D realness and image fidelity. However, the generalizability of previous NeRF-based methods is limited by the small scale of training data. In this work, we propose GeneFace, a generalized and high-fidelity NeRF-based talking face generation method, which can generate natural results corresponding to various out-of-domain audio. Specifically, we learn a variaitional motion generator on a large lip-reading corpus, and introduce a domain adaptative post-net to calibrate the result. Moreover, we learn a NeRFbased renderer conditioned on the predicted motion. A head-aware torso-NeRF is proposed to eliminate the head-torso separation problem. Extensive experiments show that our method achieves more generalized and high-fidelity talking face generation compared to previous methods.</p>
