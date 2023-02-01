@@ -92,7 +92,15 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="Additional-Demo-for-Rebuttal"><a href="#Additional-Demo-for-Rebuttal" class="headerlink" title="[Additional Demo for Rebuttal]"></a>[Additional Demo for Rebuttal]</h1><h2 id="1-We-address-the-unstable-problem-in-the-original-video-via-postprocessing-the-predicted-landmark"><a href="#1-We-address-the-unstable-problem-in-the-original-video-via-postprocessing-the-predicted-landmark" class="headerlink" title="1. We address the unstable problem in the original video via postprocessing the predicted landmark."></a>1. We address the unstable problem in the original video via postprocessing the predicted landmark.</h2><p>We can see that the artifacts in the original video (on the left), such as changing hair and shaking head, are alleviated in the right video.</p>
+        <h2 id="Update-Source-Code-Released"><a href="#Update-Source-Code-Released" class="headerlink" title="Update: Source Code Released"></a>Update: Source Code Released</h2><p>The source code is released at <a target="_blank" rel="noopener" href="https://github.com/yerfor/GeneFace">https://github.com/yerfor/GeneFace</a></p>
+<h2 id="Overall-Pipeline"><a href="#Overall-Pipeline" class="headerlink" title="Overall Pipeline"></a>Overall Pipeline</h2><p><img src="/GeneFace/overview.png" alt="overview"></p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Generating photo-realistic video portrait with arbitrary speech audio is a crucial problem in film-making and virtual reality. Recently, several works explore the usage of neural radiance field in this task to improve 3D realness and image fidelity. However, the generalizability of previous NeRF-based methods is limited by the small scale of training data. In this work, we propose GeneFace, a generalized and high-fidelity NeRF-based talking face generation method, which can generate natural results corresponding to various out-of-domain audio. Specifically, we learn a variaitional motion generator on a large lip-reading corpus, and introduce a domain adaptative post-net to calibrate the result. Moreover, we learn a NeRFbased renderer conditioned on the predicted motion. A head-aware torso-NeRF is proposed to eliminate the head-torso separation problem. Extensive experiments show that our method achieves more generalized and high-fidelity talking face generation compared to previous methods.</p>
+<h2 id="Demo-Video"><a href="#Demo-Video" class="headerlink" title="Demo Video"></a>Demo Video</h2><video width="480" height="320" controls>
+<source src="GeneFace/demo.mp4">
+</video>
+
+
+<h1 id="Additional-Demo-for-Rebuttal"><a href="#Additional-Demo-for-Rebuttal" class="headerlink" title="[Additional Demo for Rebuttal]"></a>[Additional Demo for Rebuttal]</h1><h2 id="1-We-address-the-unstable-problem-in-the-original-video-via-postprocessing-the-predicted-landmark"><a href="#1-We-address-the-unstable-problem-in-the-original-video-via-postprocessing-the-predicted-landmark" class="headerlink" title="1. We address the unstable problem in the original video via postprocessing the predicted landmark."></a>1. We address the unstable problem in the original video via postprocessing the predicted landmark.</h2><p>We can see that the artifacts in the original video (on the left), such as changing hair and shaking head, are alleviated in the right video.</p>
 <video width="480" height="320" controls>
 <source src="GeneFace/before_after_postprocessing.mp4">
 </video>
@@ -116,12 +124,6 @@
 </video>
 
 
-
-<h2 id="Overall-Pipeline"><a href="#Overall-Pipeline" class="headerlink" title="Overall Pipeline"></a>Overall Pipeline</h2><p><img src="/GeneFace/overview.png" alt="overview"></p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Generating photo-realistic video portrait with arbitrary speech audio is a crucial problem in film-making and virtual reality. Recently, several works explore the usage of neural radiance field in this task to improve 3D realness and image fidelity. However, the generalizability of previous NeRF-based methods is limited by the small scale of training data. In this work, we propose GeneFace, a generalized and high-fidelity NeRF-based talking face generation method, which can generate natural results corresponding to various out-of-domain audio. Specifically, we learn a variaitional motion generator on a large lip-reading corpus, and introduce a domain adaptative post-net to calibrate the result. Moreover, we learn a NeRFbased renderer conditioned on the predicted motion. A head-aware torso-NeRF is proposed to eliminate the head-torso separation problem. Extensive experiments show that our method achieves more generalized and high-fidelity talking face generation compared to previous methods.</p>
-<h2 id="Demo-Video"><a href="#Demo-Video" class="headerlink" title="Demo Video"></a>Demo Video</h2><video width="480" height="320" controls>
-<source src="GeneFace/demo.mp4">
-</video>
 
       
     </div>
@@ -185,7 +187,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2022 GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis<br>
+      &copy; 2023 GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
